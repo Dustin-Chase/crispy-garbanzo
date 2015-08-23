@@ -1,0 +1,49 @@
+/*******************************
+ Nav styling
+ *******************************/
+
+#topMenu ul  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#topMenu li {
+    float: left;
+}
+
+#topMenu a:link, #topMenu a:visited {
+    display: block;
+    width: 120px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #0E97CC;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#topMenu a:hover, #topMenu a:active {
+    background-color: #158782;
+}
+
+
+/*******************************
+ Sets the style for the table 
+ *******************************/
+
+table, th, td {
+	border: 2px solid black;
+	padding: 5px;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+td {
+	text-align: center;
+}
+

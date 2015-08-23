@@ -1,0 +1,66 @@
+<?
+
+?>
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>CS340 Final Project - Superhero DB</title>
+	</head>
+	<body>
+		<h3>Add Hero</h3>
+		<form action='main.php' method='POST'>
+			Superhero Name: <input type='text' name='superhero'><br>
+			First Name: <input type='text' name='fName'><br>
+			Last Name: <input type='text' name='lName'><br>
+			Affiliation: <input type='text' name='name'><br>
+			Comic Book: <input type='text' name='comic'><br>
+			Creator First Name: <input type='text' name='authorfName'><br>
+			Creator Last Name: <input type='text' name='authorlName'><br>			
+			Power 1<input type='text' name='power1'><br>
+			Power 2<input type='text' name='power2'><br>
+			Power 3<input type='text' name='power3'><br>
+			Publisher<input type='text' name='publisher'><br>
+			<input type='submit' name='search' value='Add'>
+		</form>
+		
+		<h3>Add Affiliation</h3>
+		<form action='main.php' method='POST'>
+			Affiliation Name: <input type='text' name='affName'><br>
+			Affiliation Description: <input type='text' name='affDesc'><br>
+			<input type='submit' name='search' value='Add'>
+		</form>
+		
+		<h3>Add Author</h3>
+		<form action='main.php' method='POST'>
+			First Name: <input type='text' name='authorfName'><br>
+			Last Name: <input type='text' name='authorlName'><br>
+			<input type='submit' name='search' value='Add'>
+		</form>
+		
+		<h3>Add Publisher</h3>
+		<form action='main.php' method='POST'>
+			Name: <input type='text' name='pubName'><br>
+			Founded: <input type='date' name='dateFounded'><br>
+			City: <input type='text' name='city'><br>
+			State: <input type='text' name='state'><br>
+			<input type='submit' name='search' value='Add'>
+		</form>
+		
+		<h3>Add Comic</h3>
+		<form action='main.php' method='POST'>
+			Name: <input type='text' name='comicName'><br>
+			Publisher: <input type='text' name='publisher'><br>
+			<input type='submit' name='search' value='Add'>
+		</form>
+		
+		<h3>Add Power</h3>
+		<form action='main.php' method='POST'>
+			Name: <input type='text' name='powerName'><br>
+			Description: <input type='text' name='powerDesc'><br>
+			<input type='submit' name='search' value='Add'>
+		</form>
+	</body>
+</html>
